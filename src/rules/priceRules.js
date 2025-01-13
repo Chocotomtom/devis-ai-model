@@ -1,22 +1,19 @@
-// Règles de prix standards
-const standardPrices = {
+export const standardPrices = {
     preparation: {
-        enduit: 15.95,    // €/M2
-        lessivage: 15.64  // €/M2
+        enduit: 15.95,
+        lessivage: 15.64
     },
     peinture: {
-        plafond: 25.17,   // €/M2
-        murs: 23.54,      // €/M2
-        tuyaux: 13.50     // €/ML
+        plafond: 25.17,
+        murs: 23.54,
+        tuyaux: 13.50
     },
     traitement: {
-        fissure: 35.00    // €/ML
+        fissure: 35.00
     },
     manutention: {
-        luminaire: 30.00,  // €/U
-        armoire: 100.00,   // €/U
-        frigo: 50.00      // €/U
+        luminaire: 30.00,
+        armoire: 100.00,
+        frigo: 50.00
     }
 };
-
-module.exports = standardPrices;
